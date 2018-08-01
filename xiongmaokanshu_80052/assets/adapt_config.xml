@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <!-- SD卡中看书存放的路径 -->
+    <path_root>/91PandaReader</path_root>
+
+    <!-- 是否提供版本更新 -->
+    <!-- 无该节点或者赋值错误,均视为visibility='visible' -->
+    <!-- visibility: visible, invisible, gone -->
+    <panel_update visibility='visible' />
+
+    <!-- 是否提供版本新功能指南 -->
+    <!-- 无该节点或者赋值错误,均视为enabled='true' -->
+    <!-- 当且仅当enabled='false'时才视为不显示新功能指南 -->
+    <wizard enabled='true' />
+
+    <!-- 是否进行 APP推荐 -->
+    <!-- 当且仅当enabled='false'时才视为不显示 -->
+    <app_ad enabled='false' />
+
+    <!-- 是否需要特殊排序（单行本） -->
+    <!-- 当且仅当enabled='true'时才视为单行本 -->
+    <speical_sort enabled='false' />
+
+    <!-- 是否需要push -->
+    <!-- 当且仅当enabled='true'时才视为需要push -->
+    <push enabled='false' />
+
+    <!-- 是否移动MM -->
+    <!-- 当且仅当enabled='true'时才视为开启移动妹妹 -->
+    <china_mobile_mm enabled='false' />
+
+    <!-- 是否为工信部版本 -->
+    <!-- 当且仅当enabled='true'时才视为工信部版本 -->
+    <keep_on_record enabled='false' />
+
+    <!-- 不需要系统的push，如72小时，书籍章节更新等 -->
+    <!-- 当且仅当enabled='true'时为不需要系统的push -->
+    <no_sys_push enabled='false' />
+
+    <!-- WIFI改为WLAN -->
+    <!-- 当且仅当enabled='true'时才改为WLAN -->
+    <change_to_wlan enabled='false' />
+
+    <!-- 和阅读开关 -->
+    <cmread enabled='true' />
+</config>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<skin>
+    <!--
+    <detail>
+        <name>brown</name>
+        <title>木质仿真</title>
+        <order>0</order>
+    </detail>
+     -->
+
+    <gallery>
+        <!-- name:皮肤资源 名称;type:资源类型(默认为"drawable") -->
+        <drawable name="default_title" type="drawable" src="$R.drawable/default_title" />
+        <drawable name="default_title_landscape" type="drawable"
+            src="$R.drawable/default_title_landscape" />
+
+        <drawable name="default_bottom" src="$R.drawable/default_bottom" />
+        <drawable name="default_bottom_2" src="$R.drawable/default_bottom" />
+
+        <drawable name="dialog_background" src="$R.drawable/dialog_background" />
+
+        <drawable name="list_background" src="@R.drawable/main_background" />
+
+        <drawable name="default_top_bar" src="$R.drawable/default_top_bar" />
+
+        <drawable name="shelf_top_bar" src="@R.drawable/topbar_bg" />
+
+        <drawable name="daynight_top_background" src="@R.drawable/daynight_top_background" />
+        <drawable name="daynight_bottom_background" src="@R.drawable/daynight_bottom_background" />
+
+        <drawable name="splash_screen" src="@R.drawable/splash_screen" />
+
+        <drawable name="affiche_background" src="$R.drawable/affiche_background" />
+
+        <drawable name="default_button_selector" src="$R.drawable/default_button_selector" />
+
+        <!-- StateListDrawable, type:selector; state:android state_set; drawable:指向已定义的资源引用; src:指向资源文件 -->
+        <drawable name="default_button_back_selector"
+            src="$R.drawable/default_button_back_selector" />
+        <drawable name="button_top_selector" src="$R.drawable/button_top_selector" />
+
+        <!-- 一套图 -->
+        <drawable name="r_drawable_shelf_cover" type="set">
+            <item index="0" title="默认封面" src="@R.drawable/shelf_default_cover" />
+            <item index="1" title="牛皮封面" src="@R.drawable/shelf_default_cover" />
+            <item index="2" title="苍茫大地" src="@R.drawable/shelf_default_cover1" />
+            <item index="3" title="灰色空间" src="@R.drawable/shelf_default_cover2" />
+            <!--
+            <item index="4" title="布衣生活" src="@R.drawable/shelf_default_cover3"/>
+            -->
+            <item index="4" title="黄色复古" src="@R.drawable/shelf_default_cover4" />
+            <!--
+            <item index="6" title="红色经典" src="@R.drawable/shelf_default_cover5"/>
+            <item index="7" title="布料复古" src="@R.drawable/shelf_default_cover6"/>
+            -->
+            <item index="5" title="粉色世界" src="@R.drawable/shelf_default_cover7" />
+            <item index="6" title="武功秘笈" src="@R.drawable/shelf_default_cover8" />
+            <item index="7" title="童真时代" src="@R.drawable/shelf_default_cover9" />
+            <item index="8" title="小资情调" src="@R.drawable/shelf_default_cover10" />
+            <item index="9" title="绚丽精彩" src="@R.drawable/shelf_default_cover11" />
+            <item index="10" title="秘密森林" src="@R.drawable/shelf_default_cover12" />
+        </drawable>
+
+        <drawable name="shelf_cover" type="set">
+            <item index="0" title="默认封面" src="@R.drawable/shelf_default_cover" />
+            <item index="1" title="牛皮封面" src="@R.drawable/shelf_default_cover" />
+            <item index="2" title="苍茫大地" src="@R.drawable/shelf_default_cover1" />
+            <item index="3" title="灰色空间" src="@R.drawable/shelf_default_cover2" />
+            <!--
+            <item index="4" title="布衣生活" src="@R.drawable/shelf_default_cover3"/>
+            -->
+            <item index="4" title="黄色复古" src="@R.drawable/shelf_default_cover4" />
+            <!--
+            <item index="6" title="红色经典" src="@R.drawable/shelf_default_cover5"/>
+            <item index="7" title="布料复古" src="@R.drawable/shelf_default_cover6"/>
+            -->
+            <item index="5" title="粉色世界" src="@R.drawable/shelf_default_cover7" />
+            <item index="6" title="武功秘笈" src="@R.drawable/shelf_default_cover8" />
+            <item index="7" title="童真时代" src="@R.drawable/shelf_default_cover9" />
+            <item index="8" title="小资情调" src="@R.drawable/shelf_default_cover10" />
+            <item index="9" title="绚丽精彩" src="@R.drawable/shelf_default_cover11" />
+            <item index="10" title="秘密森林" src="@R.drawable/shelf_default_cover12" />
+        </drawable>
+        <!--
+        <drawable name="shelf_guide_drawables" type="set">
+            <item index="0" title="" src="@R.drawable/shelf_guides_src1"/>
+            <item index="1" title="" src="@R.drawable/shelf_guides_src2"/>
+            <item index="2" title="" src="@R.drawable/shelf_guides_src3"/>
+            <item index="3" title="" src="@R.drawable/shelf_guides_src4"/>
+            <item index="4" title="" src="@R.drawable/shelf_guides_src5"/>
+            <item index="5" title="" src="@R.drawable/shelf_guides_src6"/>
+            <item index="6" title="" src="@R.drawable/shelf_guides_src7"/>
+            <item index="7" title="" src="@R.drawable/shelf_guides_src8"/>
+            <item index="8" title="" src="@R.drawable/shelf_guides_src9"/>
+            <item index="9" title="" src="@R.drawable/shelf_guides_src10"/>
+            <item index="10" title="" src="@R.drawable/shelf_guides_src11"/>
+            <item index="11" title="" src="@R.drawable/shelf_guides_src12"/>
+            <item index="12" title="" src="@R.drawable/shelf_guides_src13"/>
+            <item index="13" title="" src="@R.drawable/shelf_guides_src14"/>
+        </drawable>
+        -->
+        <drawable name="upgrade_drawables" type="set">
+            <item index="0" title="" src="@R.drawable/upgrade_0" />
+            <item index="1" title="" src="@R.drawable/upgrade_1" />
+            <item index="2" title="" src="@R.drawable/upgrade_2" />
+        </drawable>
+
+        <drawable name="download_waitting" type="set">
+            <item index="0" title="" src="@R.drawable/download_waitting_0" />
+            <item index="1" title="" src="@R.drawable/download_waitting_1" />
+            <item index="2" title="" src="@R.drawable/download_waitting_2" />
+            <item index="3" title="" src="@R.drawable/download_waitting_3" />
+            <item index="4" title="" src="@R.drawable/download_waitting_4" />
+            <item index="5" title="" src="@R.drawable/download_waitting_5" />
+            <item index="6" title="" src="@R.drawable/download_waitting_6" />
+            <item index="7" title="" src="@R.drawable/download_waitting_7" />
+            <item index="8" title="" src="@R.drawable/download_waitting_8" />
+        </drawable>
+
+        <!--
+        <drawable name="setting_tab_selector" type="selector" src="$R.drawable/setting_tab">
+            <item state="selected" src="$R.drawable/setting_tab_selected"/>
+            <item state="focused" src="$R.drawable/setting_tab_selected"/>
+            <item state="pressed" src="$R.drawable/setting_tab_selected"/>
+        </drawable>
+
+        <drawable name="menu_selector" type="selector" src="@palette/none">
+            <item state="selected" src="$R.drawable/menu_selected"/>
+            <item state="focused" src="$R.drawable/menu_selected"/>
+            <item state="pressed" src="$R.drawable/menu_selected"/>
+        </drawable>
+        -->
+
+        <!-- LayerDrawable type=layer; id:资源标识(代表层级); left/top/right/bottom偏移量,默认单位dp
+        <drawable name="btn" type="layer">
+            <item index="0" src="" left="5" top="2" right="5" bottom="2"/>
+            <item index="1" src="" gravity="center"/>
+        </drawable>
+        -->
+
+        <!-- ScaleDrawable width/height:默认单位dp,支持百分比
+        <drawable name="btn" type="scale" src="" gravity="center" width="50%" height="120dp"/>
+        -->
+
+    </gallery>
+
+    <palette>
+        <item name="setting_background" color="#fff7f2eb" />
+        <item name="list_text_color" color="#ff43200e" />
+        <item name="message_title_color" color="#ff773322" />
+        <!-- 首页消息窗标题背景颜色 -->
+        <item name="scheme_bottom_color" color="#80f89f19" />
+        <item name="none" color="#00000000" />
+        <item name="common_text" color="#ff501900" />
+        <item name="list_background" color="#fff5f0e8" />
+        <item name="file_browser_title" color="#ffddc6b3" />
+    </palette>
+</skin>

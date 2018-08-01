@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><setting>
+    <channeltype>H5</channeltype>
+    <channelid>PandaBookAndroid6107</channelid>
+    <versionname>8.0.0.52</versionname>
+    <versioncode>80052</versioncode>
+    <appid>10007</appid>
+    <sdpath>91PandaReader</sdpath>
+    <ttspath/>
+    <wxid/>
+    <sinakey/>
+    <sinasecret/>
+    <pushkey/>
+    <umengkey>567a1c8e67e58e13e10027e7</umengkey>
+    <payid/>
+    <paykey/>
+</setting>
